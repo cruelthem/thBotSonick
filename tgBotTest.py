@@ -11,7 +11,7 @@ import telebot
 # words = soup.find('div', class_='tpl-block-list-objects tpl-block-171-list')
 # print(words.text.strip())
 
-bot = telebot.TeleBot('5108199551:AAHso0Y-wvUoWL_vs6KBv6SjT4OSkAZEkVE')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def start(message):
